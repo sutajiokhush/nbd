@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Test</title>
+    <style>
+        @font-face {
+            font-family: 'Beachday';
+            src: url('/fonts/beachday.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body {
+            font-family: sans-serif;
+            padding: 50px;
+        }
+        h1 {
+            font-family: 'Beachday', cursive;
+            font-size: 48px;
+            color: #E69DB8;
+        }
+        .control {
+            font-family: sans-serif;
+            color: gray;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="control">This text should be in sans-serif (Inter/Arial).</div>
+    <h1>This text should be in Beachday font!</h1>
+    <h1>20 Letters for your 20th Birthday</h1>
+</body>
+</html>
